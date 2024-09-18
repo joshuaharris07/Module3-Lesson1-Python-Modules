@@ -14,4 +14,10 @@
 #     mood = input("How are you feeling today? ")
 #     print(mood_responses.mood_response(mood))
 
-# Expected Outcome: The program should be able to take a user's mood as input (e.g., happy, sad, excited) and return a corresponding custom message.
+# Expected Outcome: The program should be able to take a user's mood as input 
+# (e.g., happy, sad, excited) and return a corresponding custom message.
+
+import mood_responses as mr
+
+mood = input("How are you feeling today? ").lower()
+print(mr.mood_response(mood))
